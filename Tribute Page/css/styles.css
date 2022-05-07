@@ -1,0 +1,111 @@
+/* General styles */
+
+body {
+    font-family: 'Alice', serif;
+    margin: 0;
+    padding: 0;
+    font-size: 19px;
+    line-height: 28px;
+}
+
+/* header */
+
+header {
+    height: 270px;
+    padding-top: 10px;
+    background-image: url(../image/10KAHLOSUB-jumbo.jpg);
+    background-repeat: no-repeat;
+    background-position:center;
+    background-position-y: 68%;
+    background-size: cover;
+    font-family: 'Alice', serif;
+    border-bottom:1px solid #FFF1E4;
+}
+
+main {
+    margin: auto;
+    padding: auto;
+    text-align: left;
+    /*position: relative;*/
+    max-width: 960px;
+}
+
+h1 {
+    font-size: 90px;
+    font-weight: 100;
+    margin-bottom: 10px;
+    margin-top: 55px;
+    width: 867px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: auto;
+}
+
+h3 {
+    font-weight: 300;
+}
+
+#title {
+    height: 45px;
+}
+
+.center {
+    text-align: center;
+}
+
+#image {
+    max-width: 100%;
+    display: block;
+    position:relative;
+    margin: auto;
+    padding: auto;
+}
+
+#img-caption {
+    font-size: 14px;
+    color: grey;
+    font-style: italic;
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: right;
+}
+
+#quote {
+    display: inline-block;
+    background-color: #F3F3F3;
+    border-left: 8px solid #C2BFBE;
+    padding: 20px 14px 10px 14px;
+}
+
+q {
+    font-style: italic;
+    font-weight: bold;
+}
+
+#signature {
+    width: 25%;
+    /*position: absolute;*/
+    float: right;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    width: 100%;
+    margin: 0em auto;
+    position: absolute;
+    padding-bottom: 1em;
+}
+
+a.footer:hover {
+    text-decoration-color: lightgray;
+    text-decoration: none;
+}
+
+footer a {
+	
+	margin: auto;
+	position: relative;
+    color: rgb(145, 181, 145);
+}
